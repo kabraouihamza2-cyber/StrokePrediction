@@ -1,0 +1,50 @@
+{
+    "Target Variable": {
+        "stroke": {
+            "1": "Stroke Diagnosed",
+            "0": "No Stroke"
+        }
+    },
+    "Binary Features": {
+        "gender": {
+            "1": "Male",
+            "0": "Female"
+        },
+        "ever_married": {
+            "1": "Yes",
+            "0": "No"
+        },
+        "Residence_type": {
+            "1": "Urban",
+            "0": "Rural"
+        },
+        "hypertension": {
+            "1": "Yes",
+            "0": "No"
+        },
+        "heart_disease": {
+            "1": "Yes",
+            "0": "No"
+        }
+    },
+    "One-Hot Encoding (Baselines)": {
+        "Note": "drop_first=True used. If all related columns are 0, the baseline is active.",
+        "work_type": {
+            "Baseline": "Govt_job"
+        },
+        "smoking_status": {
+            "Baseline": "Unknown"
+        },
+        "Glucose_Status": {
+            "Baseline": "Normal"
+        },
+        "age_group": {
+            "Baseline": "child"
+        }
+    },
+    "Engineered Features": {
+        "risk_factors_count": "Sum of risks",
+        "age_bmi_interaction": "age * bmi",
+        "age_hypertension_interaction": "age * hypertension"
+    }
+}

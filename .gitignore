@@ -1,0 +1,12 @@
+# Environnement virtuel
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Données sensibles / lourdes (selon ton choix)
+data.csv
+*.pkl
+
+# IDE
+.vscode/
