@@ -1,4 +1,4 @@
-# 🧠 Predictive Modeling for Stroke Risk
+# Predictive Modeling for Stroke Risk
 
 > *Full methodology, code output, and in-depth analysis: [`report/full_report.md`](report/full_report.md)*
 
@@ -6,7 +6,7 @@ An end-to-end machine learning pipeline that predicts stroke risk from patient m
 
 ---
 
-## 🎯 Objective & Clinical Context
+## Objective & Clinical Context
 
 Stroke is the **second leading cause of death globally** (WHO). Early detection is critical, but it is often missed because symptoms can be subtle and clinical datasets are heavily imbalanced — roughly 95% of patients in this dataset did not have a stroke.
 
@@ -33,7 +33,7 @@ The AI is built as a **decision-support tool for doctors** — it flags risk, it
 
 ---
 
-## 🔬 Full Pipeline
+## Full Pipeline
 
 ### Phase 1 — Data Cleaning
 
